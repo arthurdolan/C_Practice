@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arthurdolan/Desktop/Uni/CS/C/Stack'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0x40 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _isFull, symObjAddr: 0x40, symBinAddr: 0x100003BD0, symSize: 0x40 }
+  - { offsetInCU: 0x91, offset: 0x91, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x80, symBinAddr: 0x100003C10, symSize: 0x68 }
+  - { offsetInCU: 0xC3, offset: 0xC3, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0xE8, symBinAddr: 0x100003C78, symSize: 0x74 }
+  - { offsetInCU: 0xEB, offset: 0xEB, size: 0x8, addend: 0x0, symName: _getTop, symObjAddr: 0x15C, symBinAddr: 0x100003CEC, symSize: 0x68 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _printStack, symObjAddr: 0x1C4, symBinAddr: 0x100003D54, symSize: 0x78 }
+  - { offsetInCU: 0x149, offset: 0x149, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x23C, symBinAddr: 0x100003DCC, symSize: 0x148 }
+...
